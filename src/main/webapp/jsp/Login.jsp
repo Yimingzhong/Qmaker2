@@ -57,18 +57,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <div class="row">
                                 
                                 <div class="col-md-9 mx-auto">
-                                    <h3 style="text-align: center;margin-top: 20%;margin-bottom: 20%;">没有账号？快来注册吧</h3>
-                                    <form action="UserRegisterAction.action" method="post">
+                                    <h2 style="text-align: center;margin-top: 20%;margin-bottom: 20%;">用户登录</h2>
+                                    <form action="LoginAction.action" method="post">
                                         <div class="form-group">
-                                            	用户名:<br>
+                                          	 用户名:<br>
                                             <input type="text" class="form-control" name="userId">
                                         </div>
                                         <div class="form-group">
-                                           	 密码:<br>
+                                            	密码:<br>
                                             <input type="password" class="form-control" name="password">
                                         </div>
                                         <div style="margin-top: 20%;">
-                                            <button type="submit" class="btn btn-primary form-control">注册</button>
+                                            <button type="submit" class="btn btn-primary form-control">登录</button>
                                         </div>
                                     </form>
                                 </div>
